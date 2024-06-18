@@ -1,0 +1,16 @@
+{
+  "name": "web3gator",
+  "version": "1.0.0",
+  "description": "a telegram bot for getting details of web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shan Rasool",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
