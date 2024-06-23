@@ -3,6 +3,7 @@
 ### Currently this bot is in progress and I have added some basic functionalities like -
 
 > Getting the transaction details on Ethereum, Binance and TON
+
 > Getting the account details on Ethereum, Binance and TON
 
 ### Also I have added the scripts which I need to implment in functionalty -
