@@ -1,7 +1,7 @@
 const { TonClient, toNano } = require("@ton/ton");
 const { DEX, pTON } = require("@ston-fi/sdk");
 
-async function swap(mnemonicString, amountToSwap, askJettonAddress) {
+async function tonSwap(mnemonicString, amountToSwap, askJettonAddress) {
   try {
     const mnemonic = mnemonicString.split(" ");
 
@@ -63,4 +63,4 @@ async function swap(mnemonicString, amountToSwap, askJettonAddress) {
   }
 }
 
-module.exports = swap;
+module.exports = tonSwap;
